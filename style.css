@@ -47,8 +47,19 @@ header .left img {
   object-fit: cover;
 }
 .container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+  padding: 10px 20px;
+}
+body {
   background-color: #f1f1f1;
-  
+}
+.search {
+  display: flex;
+}
+.search-box {
+  width: 1030px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 10px;
 }
