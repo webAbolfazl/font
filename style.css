@@ -1,13 +1,28 @@
 @font-face {
-    font-family: irsans;
-    src: url("./font/irsans.ttf");
+  font-family: irsans;
+  src: url("./font/irsans.ttf");
 }
-*{
-    margin: 0;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0px;
 }
 
-body{
-    font-family: irsans;
-    direction: rtl;
+body {
+  font-family: irsans;
+  direction: rtl;
+}
+header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  border-top: solid 4px #7e3994;
+  justify-content: space-between;
+}
+.right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-right: 70px;
+}
+.left {
 }
