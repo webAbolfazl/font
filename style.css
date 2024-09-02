@@ -46,3 +46,8 @@ header .left img {
   width: 200px;
   object-fit: cover;
 }
+.container {
+  width: 60%;
+  background-color: #f1f1f1;
+  
+}
