@@ -28,6 +28,7 @@ header .right .item {
 }
 header .right .item a {
   text-decoration: none;
+  color: black;
 }
 
 header .right .item:hover {
