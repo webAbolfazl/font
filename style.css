@@ -48,6 +48,7 @@ header .left img {
 }
 .container {
   width: 60%;
+  margin: 0 auto;
   background-color: #f1f1f1;
   
 }
