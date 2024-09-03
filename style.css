@@ -129,3 +129,16 @@ header .left img {
 .search .bottom span:hover {
   color: black;
 }
+
+.notice{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.notice img{
+  object-fit: cover;
+  border-top: solid 4px #7e3994;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
