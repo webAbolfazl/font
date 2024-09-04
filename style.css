@@ -444,17 +444,20 @@ footer .top {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  margin-bottom: 1px;
 }
 footer .top p a {
   color: white;
   text-decoration: none;
 }
 
-footer .bottom {
+footer .bottom{
   background-color: #713489;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
   font-size: 14px;
 }
