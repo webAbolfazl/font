@@ -21,7 +21,7 @@ header {
   align-items: center;
   position: sticky;
   background-color: white;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0px 0px 5px #e8e8e8;
   top: 0;
   z-index: 999;
 }
@@ -301,16 +301,16 @@ header .left img {
   padding: 10px;
 }
 
-.font-main .bottom  p{
+.font-main .bottom p {
   padding: 8px 4px;
   color: #444;
   font-size: 15px;
 }
 
-.font-main .bottom  p span{
+.font-main .bottom p span {
   color: #650287;
   cursor: pointer;
 }
-.font-main .bottom  p span:hover{
+.font-main .bottom p span:hover {
   color: black;
 }
