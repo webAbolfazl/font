@@ -156,6 +156,11 @@ header .left img {
   justify-content: space-between;
 }
 
+.font-main .top {
+  display: flex;
+  justify-content: space-between;
+}
+
 .font-main .top .left {
   padding: 25px;
   display: flex;
@@ -235,17 +240,17 @@ header .left img {
   padding: 11px;
   height: 40px;
   width: 300px;
-  background-color: #7E3995;
+  background-color: #7e3995;
   border-radius: 5px;
   color: white;
   cursor: pointer;
-  transition: all .2s;
+  transition: all 0.2s;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-.font-main .top .download:hover{
+.font-main .top .download:hover {
   background-color: #650287;
 }
 .font-main .top .download img {
@@ -259,4 +264,50 @@ header .left img {
   line-height: 40px;
   font-size: 15px;
   color: #444;
+}
+
+.font-main .top .right {
+  padding: 30px 20px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.font-main .top .right hr {
+  width: 80%;
+  height: 0.5px;
+  margin-top: 15px;
+  background-color: #999;
+}
+
+.font-main .top .right .font-bish {
+  width: 80%;
+  margin-top: 20px;
+}
+.font-main .top .right p {
+  text-align: right;
+}
+
+.font-main .top .right img {
+  object-fit: cover;
+  width: 80%;
+}
+
+.font-main .bottom {
+  padding: 10px;
+}
+
+.font-main .bottom  p{
+  padding: 8px 4px;
+  color: #444;
+  font-size: 15px;
+}
+
+.font-main .bottom  p span{
+  color: #650287;
+  cursor: pointer;
+}
+.font-main .bottom  p span:hover{
+  color: black;
 }
