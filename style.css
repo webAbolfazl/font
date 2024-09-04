@@ -377,7 +377,10 @@ footer .top p a {
   color: white;
   text-decoration: none;
 }
-
+footer .bottom .left {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
 footer .bottom {
   background-color: #713489;
   display: flex;
