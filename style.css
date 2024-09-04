@@ -251,3 +251,12 @@ header .left img {
 .font-main .top .download img {
   width: 30px;
 }
+
+.font-main .top .information {
+  padding: 10px;
+}
+.font-main .top .information p {
+  line-height: 40px;
+  font-size: 15px;
+  color: #444;
+}
