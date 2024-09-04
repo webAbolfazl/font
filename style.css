@@ -21,7 +21,7 @@ header {
   align-items: center;
   position: sticky;
   background-color: white;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0px 0px 5px #e8e8e8;
   top: 0;
   z-index: 999;
 }
@@ -47,6 +47,9 @@ header .left {
 header .left img {
   width: 200px;
   object-fit: cover;
+}
+.left:hover {
+  cursor: pointer;
 }
 .container {
   width: 80%;
